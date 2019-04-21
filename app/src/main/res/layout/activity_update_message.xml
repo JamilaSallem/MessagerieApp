@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SendMessage"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp">
+
+
+    <EditText
+        android:id="@+id/addSender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="60dp"
+        android:hint="SENDER"
+        android:paddingLeft="40dp" />
+
+    <EditText
+        android:id="@+id/addMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="60dp"
+        android:hint="Message"
+        android:paddingLeft="40dp" />
+
+    <EditText
+        android:id="@+id/addTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="90dp"
+        android:hint="TIME"
+        android:inputType="time"
+        android:paddingLeft="40dp" />
+
+    <Button
+        android:id="@+id/updateBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="UPDATE"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
+
